@@ -3,6 +3,8 @@ package peaksoft.tech.militaryeqiupment;
 public class Tank extends MilitaryEquipment {
     private String massCategory;
 
+    //DEFINE CONSTRUCTOR WITHOUT ARGUMENTS
+    
     public Tank(String nameTech, String colorTech, double mass, double price, int firingRange, String material, String massCategory) {
         super(nameTech, colorTech, mass, price, firingRange, material);
         this.massCategory = massCategory;
