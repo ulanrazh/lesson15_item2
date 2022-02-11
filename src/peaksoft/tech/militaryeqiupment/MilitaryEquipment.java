@@ -5,6 +5,8 @@ import peaksoft.tech.Tech;
 public class MilitaryEquipment extends Tech {
     private int firingRange;
     private String material;
+    
+    //CONSTRUCTOR WITHOUT ARGUMENTS
 
     public MilitaryEquipment(String nameTech, String colorTech, double mass, double price, int firingRange, String material) {
         super(nameTech, colorTech, mass, price);
