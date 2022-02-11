@@ -6,6 +6,8 @@ public class WashingMashine extends Appliances {
     private String typeOfAutomate;
     private String display;
 
+    //CONSTRUCTOR WITHOUT ARGUMENTS
+    
     public WashingMashine(String nameTech, String colorTech, double mass, double price, LocalDate createdDate, int volumeApp,
                           String classEnergy, String typeOfAutomate, String display) {
         super(nameTech, colorTech, mass, price, createdDate, volumeApp, classEnergy);
