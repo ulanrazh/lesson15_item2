@@ -8,6 +8,8 @@ public class Appliances extends Tech {
     private LocalDate createdDate;
     private int volumeApp;
     private String classEnergy;
+    
+    //CONSTRUCTOR WITHOUT ARGUMENTS
 
     public Appliances(String nameTech, String colorTech, double mass, double price, LocalDate createdDate, int volumeApp, String classEnergy) {
         super(nameTech, colorTech, mass, price);
