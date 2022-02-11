@@ -2,10 +2,12 @@ package peaksoft.tech.vechiles;
 
 import java.time.LocalDate;
 
-public class Truck extends Car {
+public class Truck extends Car { //TRUCK SHOULD EXTEND VEHICLE.CLASS !! 
     private int volume;
     private String fuel;
 
+    //DEFINE CONSTRUCTOR WITHOUT ARGUMENTS
+    
     public Truck(String nameTech, String colorTech, double mass, double price, String typeTransort, String markTransport,
                  int speed, int mileage, LocalDate manufactorDate, String steeringWheel, String fuel) {
         super(nameTech, colorTech, mass, price, typeTransort, markTransport, speed, mileage, manufactorDate, steeringWheel);
