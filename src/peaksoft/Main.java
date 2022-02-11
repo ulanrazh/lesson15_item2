@@ -71,6 +71,9 @@ public class Main {
         System.out.println(fridge1);
         System.out.println(fridge2);
         System.out.println(fridge3);
+        
+        //LOOKS SO GOOD
+        // I'M PROUD OF YOU
 
     }
 }
